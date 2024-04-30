@@ -1,0 +1,31 @@
+.aa {
+    width: 700px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.heder {
+
+    display: flex;
+    padding: 10px;
+    background: pink;
+    align-items: center;
+    gap: 0 15px;
+}
+
+
+.heder div {
+    font-size: 15px;
+    color: white;
+}
+
+
+.user {
+    margin-left: auto;
+}
+
+.navbar-header {
+    text-align: center;
+}

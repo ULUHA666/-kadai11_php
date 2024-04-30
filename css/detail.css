@@ -1,0 +1,23 @@
+body {
+    background-color: #dfddda; /* 背景色を指定 */
+}
+
+
+div {
+    padding: 10px;
+    font-size: 16px;
+    text-align: center; /* 中央揃え */
+}
+
+form {
+    margin: 0 auto; /* フォームを中央配置 */
+    width: 50%; /* フォームの幅を指定 */
+}
+
+
+input[type="submit"]:hover {
+
+    background-color: #4CAF50; /* ホバー時の背景色 */
+    color: white; /* ホバー時のテキスト色 */
+  }
+  

@@ -1,0 +1,63 @@
+img {
+    display: block;
+    /* インライン要素からブロック要素に変更 */
+    margin: 0 auto;
+    /* 左右のマージンを自動で調整して中央に配置 */
+    max-width: 100%;
+    /* 幅を100%にする */
+    height: auto;
+    /* 高さを自動調整 */
+    max-height: 200px;
+    /* 最大高さを指定（必要に応じて変更） */
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* 画面の高さいっぱいに表示するために設定 */
+    margin: 0;
+    /* ボディのマージンをリセット */
+}
+
+header {
+    text-align: center;
+    /* ヘッダーのテキストを中央揃え */
+}
+
+form {
+    text-align: center;
+    /* フォーム内のテキストを中央揃え */
+}
+
+input[type="submit"] {
+    /* デフォルトのスタイル */
+    background-color: #007bff;
+    /* ボタンの背景色 */
+    color: #fff;
+    /* ボタンのテキスト色 */
+    border: none;
+    /* ボーダーをなしにする */
+    padding: 10px 20px;
+    /* パディングを追加 */
+    border-radius: 5px;
+    /* 角丸にする */
+    cursor: pointer;
+    /* カーソルをポインターに変更 */
+
+    /* ホバーアクション時のスタイル */
+}
+
+input[type="submit"]:hover {
+    background-color: #ec20ab;
+    /* ホバーアクション時の背景色 */
+}
+
+div p {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 24px;
+    /* テキストを中央揃えにする */
+}
